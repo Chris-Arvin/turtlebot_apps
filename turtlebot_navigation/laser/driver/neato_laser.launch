@@ -2,6 +2,7 @@
 <launch>
   <node pkg="xv_11_laser_driver" type="neato_laser_publisher" name="neato_laser_publisher" output="screen">
     <param name="firmware_version"  value="2" />
+    <param name="frame_id"  type="string" value="laser"/>
     <param name="port"  value="/dev/ttyUSB1" />
     <param name="baud_rate"  value="115200" />
   </node>
