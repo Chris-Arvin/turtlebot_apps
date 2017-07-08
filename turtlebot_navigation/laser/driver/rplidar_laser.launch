@@ -8,5 +8,5 @@
   <param name="angle_compensate"    type="bool"   value="true"/>
   </node>
 
-  <node pkg="tf" type="static_transform_publisher" name="base_to_laser" args="0.0 0.0 0.42 0 0.0 0.0 base_link laser 50"/>
+  <node pkg="tf" type="static_transform_publisher" name="base_to_laser" args="0.0 0.0 0.42 0.0 0.0 0.0 base_link laser 50"/>
 </launch>
